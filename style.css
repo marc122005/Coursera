@@ -281,7 +281,7 @@ nav ul li a:focus::after {
 }
 .start{
   background-color: #ffffff;
-  height: 70vh;
+  height: 150vh;
 }
 .start .nav3{
   background-color:#ffffff;
@@ -290,7 +290,7 @@ nav ul li a:focus::after {
   height: 60px;
   display: flex;
   align-items: center;
-
+  z-index: 5;
 }
 .start .nav3 img{
   position: absolute;
