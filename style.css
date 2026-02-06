@@ -385,6 +385,9 @@ nav ul li a:focus::after {
   .nav2{
     padding: 0px;
   }
+    .nav2 .search .search-icon{
+      display: none;
+    }
   .plus .coursera-plus{
     flex-direction: column;
     padding: 10px;
@@ -411,6 +414,10 @@ nav ul li a:focus::after {
   .invest .invest-container .careers .block{
     width: 100%;
   }
+  .universities .companies .company-logos img{
+    width: 150px;
+  }
+
   .start .nav3 img{
     display: none;
   }
