@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #000000, #0f2027);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+}
+
+/* Card Container */
+.container {
+  background: rgba(0, 0, 0, 0.85);
+  border: 1px solid rgba(0, 136, 255, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 350px;
+  box-shadow: 0 0 25px rgba(0, 136, 255, 0.3);
+  color: #ffffff;
+  transition: 0.3s ease;
+  margin: 10px;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 35px rgba(0, 136, 255, 0.5);
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #00aaff;
+}
+
+.form label {
+  margin-bottom: 5px;
+  color: #cccccc;
+}
+
+/* Inputs */
+.form input {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #1a1a1a;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  background: #111111;
+  color: white;
+  transition: 0.3s;
+}
+
+.form input:focus {
+  border: 1px solid #00aaff;
+  box-shadow: 0 0 10px rgba(0, 170, 255, 0.6);
+}
+
+/* Button */
+.form #loginbtn{
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(90deg, #007bff, #00aaff);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.form #loginbtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.7);
+}
+.form span a {
+  color: #00aaff;
+  text-decoration: none;
+  padding: 5px;
+}
+.form span a:hover {
+  text-decoration: underline;
+}
+.form p{
+  color: #ff4d4d;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
