@@ -341,6 +341,42 @@ nav ul li a:focus::after {
   transition: 1s;
 }
 
+.careers{
+  background-color: white;
+}
+.careers .skills{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-color);
+  width: 100%;
+  border-radius: 15px;
+}
+.careers .skills .text-career{
+  width: 20%;
+}
+.careers .skills .courses .boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+}
+.careers .skills .courses .boxes .box{
+  background-color: white;
+  border-radius: 15px;
+}
+.careers .skills .courses .boxes .box .couses-img {
+  width: 2000px;
+}
+
+
+
+
+
+
+
+
 
 
 
