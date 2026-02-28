@@ -27,7 +27,7 @@ loginbtn.addEventListener("click", function(event){
     if(email.value== oldEmail && password.value== oldPassword){
         emailerror.style.display="none";
         passworderror.style.display="none";
-        window.location.href="../index.html";
+        window.location.href="index.html";
         
     }else{
         if(email.value==""){

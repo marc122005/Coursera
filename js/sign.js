@@ -57,7 +57,7 @@ signupbtn.addEventListener("click", function(event){
     localStorage.setItem("password", password.value);
     console.log(userData);
     
-    window.location.href="../login.html";
+    window.location.href="login.html";
     
 
 
