@@ -352,33 +352,112 @@ nav ul li a:focus::after {
   border-radius: 15px;
 }
 .careers .skills .text-career{
+  height: 350px;
   width: 25%;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.careers .skills .text-career h1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.careers .skills .text-career button a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.careers .skills .text-career button a:hover{
+  background-color: var(--secondary-color);
+  color: white;
+}
+.careers .skills .courses{
+  width: 75%;
 }
 .careers .skills .courses .boxes {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 10px;
   padding: 10px;
+  margin-bottom: 30px;
 }
 .careers .skills .courses .boxes .box{
   background-color: white;
   border-radius: 15px;
+  padding: 10px;
 }
 .careers .skills .courses .boxes .box .courses-img img {
   width: 280px;
   height: 170px;
   border-radius: 15px;
-  padding: 10px;
+  
 }
-
-
-
-
-
-
+.careers .skills .courses .boxes .box .company {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.careers .skills .courses .boxes .box .company .logo{
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgb(230, 221, 221);
+  padding: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+.careers .skills .courses .boxes .box .company .logo img{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 50% ;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.careers .skills .courses .boxes .box .company p{
+  font-size: 14px;
+  margin-left: 3px;
+  color: #7C869A;
+  
+}
+.careers .skills .courses .boxes .box h3{
+  font-size: 14px;
+  margin: 10px;
+  text-transform: capitalize;
+}
+.careers .skills .courses .boxes .box p{
+  font-size: 14px;
+  margin: 10px;
+  color: #7C869A;
+}
+.careers .skills .courses #show-more a{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.careers .skills .courses #show-more a:hover{
+  background-color: var(--secondary-color);
+  color: white;
+}
+.careers .skills .courses .boxes .more{
+  display: none;
+}
 
 
 
@@ -479,5 +558,25 @@ nav ul li a:focus::after {
   .start .start-container .join-img img{
     width: 100%;
     margin-top: 20px;
+  }
+  .careers .skills{
+    flex-direction: column;
+    align-items: center;
+  }
+  .careers .skills .text-career{
+    width: 100%;
+    height: auto;
+  }
+  .careers .skills .courses{
+    width: 100%;
+  }
+  .careers .skills .courses .boxes .box{
+    width: 100%;
+    display: flex;
+    
+  }
+  .careers .skills .courses .boxes .box .courses-img img{
+    width: 100px;
+    height: 100px;
   }
 }
