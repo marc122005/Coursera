@@ -172,6 +172,20 @@ nav ul li a:focus::after {
 .nav2 .cont #register .join a:hover {
   background-color: #c1d7f1;
 }
+.nav2 .cont .logout{
+  position: absolute;
+  right: 30px;
+  background-color: white;
+  color: var(--secondary-color);
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: capitalize;
+  display: none;
+}
+.nav2 .cont .logout:hover {
+  text-decoration: underline;
+}
 
 .plus {
   background-color: var(--primary-color);
